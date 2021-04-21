@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="./css/main.css">
     <title>Formulario</title>
 </head>
 
@@ -13,11 +13,13 @@
     <div class="geral">
         <h1 class="titulo">INSCRIÇÃO</h1>
         <p class="name">NOME</p>
-        <input type="text" name="" class="input">
+        <input type="text" class="input">
+        <p class="name">SOBRENOME</p>
+        <input type="text" class="input">
         <p class="email">E-MAIL</p>
-        <input type="email" name="" class="input">
+        <input type="email" class="input">
         <p class="dt_nascim">DATA NASCIMENTO</p>
-        <input type="date" name="" class="input">
+        <input type="date" class="input">
         <p class="Sexo">SEXO</p>
         <select id="genero">
             <option value="sel">Selecione</option>
@@ -26,10 +28,12 @@
             <option value="other">Outro</option>
         </select>
         <div class="enviar">
-            <button class="botao">Voltar</button>
-            <button class="botao">Enviar</button>
+            <a id="botao" href="./index.html"><button>Voltar</button></a>
+            <button class="botao" onclick="location.reload();alert('Inscrição realizada com sucesso!')">Enviar</button>
         </div>
     </div>
+    <script>
+    </script>
     <footer class="rodape">Todos direitos reservados a Ulau </footer>
 </body>
 

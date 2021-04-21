@@ -1,26 +1,36 @@
-.titulo{
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(170, 228, 218);
+}
+
+.titulo {
     font-style: italic;
     text-align: center;
-    
 }
 
-.rodape{
+.rodape {}
 
+.tabela {
+    border: 1px solid black;
+    background: #F0FFF0;
+    text-align: center;
 }
 
-.tabela1{
-    border: '1';
+.workshop {
+    margin: 0rem 2rem 0rem 17rem;
+    text-align: center;
+    height: 19rem;
+    width: 30;
 }
-.input{
+
+.input {
     border-radius: 3rem;
-    color: white;
     font-family: var(--corpo);
     margin: 0rem;
     padding: 0.5rem;
     width: 27rem;
-
-
 }
+
 #genero {
     background-color: lightslategray;
     border: none;
@@ -31,28 +41,44 @@
     padding: 0.2rem 3rem;
 }
 
-
-.enviar{
+.enviar {
     display: flex;
     margin: 1rem;
     margin-left: 14rem;
-    
 }
 
-.botao{
+#botao {
     border-radius: 0.3rem;
     padding: 0rem 1rem;
-
 }
 
-.geral{
+.botao {
+    border-radius: 0.3rem;
+    padding: 0rem 1rem;
+}
+
+.geral {
     background-color: rgba(119, 136, 153, 0.2);
     border-radius: 2rem;
     align-items: center;
     display: flex;
     flex-direction: column;
+    height: 35rem;
+    width: 39rem;
+    margin: 0rem 0rem 25rem 37rem;
 }
 
-.voltar{
+.voltar {}
 
+.primeiro__paragrafo {
+    text-align: justify center;
+    margin: 0rem 35rem 0rem 25rem;
+}
+
+#inscricao___link {
+    margin: 0rem 0rem 0rem 35rem;
+}
+
+.img___inscreva-se {
+    height: 9rem;
 }
