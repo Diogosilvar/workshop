@@ -1,0 +1,58 @@
+.titulo{
+    font-style: italic;
+    text-align: center;
+    
+}
+
+.rodape{
+
+}
+
+.tabela1{
+    border: '1';
+}
+.input{
+    border-radius: 3rem;
+    color: white;
+    font-family: var(--corpo);
+    margin: 0rem;
+    padding: 0.5rem;
+    width: 27rem;
+
+
+}
+#genero {
+    background-color: lightslategray;
+    border: none;
+    border-radius: 5rem;
+    color: black;
+    font-family: var(--corpo);
+    margin: 0rem;
+    padding: 0.2rem 3rem;
+}
+
+
+.enviar{
+    display: flex;
+    margin: 1rem;
+    margin-left: 14rem;
+    
+}
+
+.botao{
+    border-radius: 0.3rem;
+    padding: 0rem 1rem;
+
+}
+
+.geral{
+    background-color: rgba(119, 136, 153, 0.2);
+    border-radius: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.voltar{
+
+}
